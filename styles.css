@@ -1,0 +1,262 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333333;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #b48636;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.ticker {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.ticker-item {
+    color: #000;
+}
+
+.price {
+    color: #008000;
+}
+
+.change {
+    color: #ff0000;
+}
+
+.hero {
+    text-align: left;
+    background-color: #333;
+    color: #f8f8f8;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero a {
+    color: #f8f8f8;
+    text-decoration: underline;
+}
+
+.image-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+}
+
+.most-viewed {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #b48636;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.analysis-container,
+.article-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.analysis-item,
+.article-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    flex: 0 0 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #b48636;
+    margin-top: 0;
+}
+
+.label {
+    color: red;
+    font-weight: bold;
+}
+
+a {
+    color: #b48636;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; /* White background */
+    color: #333; /* Default text color */
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  header {
+    background-color: #f6f7f9; /* Header background color */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  .most-viewed {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .analysis-item,
+  .article-item {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    background-color: #28a745;
+    color: #fff;
+    padding: 4px 8px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #b48636;
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.economic-calendar {
+    margin-bottom: 40px;
+}
+
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-item p {
+    margin: 5px 0;
+}
+
+.time {
+    color: #b48636;
+    font-weight: bold;
+}
